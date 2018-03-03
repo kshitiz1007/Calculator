@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="240dp"
+    android:layout_height="320dp"
+    android:layout_gravity="bottom|right"
+    android:background="#36A3FF"
+    android:id="@+id/header"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="240dp"
+        android:layout_height="64dp"
+        android:id="@+id/linearLayout1">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="sin"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView21"
+            android:onClick="navigationFn" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="cos"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView22"
+            android:onClick="navigationFn" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="tan"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView23"
+            android:onClick="navigationFn" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="240dp"
+        android:layout_height="64dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="asin"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView24"
+            android:onClick="navigationFn" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="acos"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView25"
+            android:onClick="navigationFn" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="atan"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView26"
+            android:onClick="navigationFn" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="240dp"
+        android:layout_height="64dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="ln"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView27"
+            android:onClick="navigationFn" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="ln10"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView28"
+            android:onClick="navigationFn" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="!"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView29"
+            android:textIsSelectable="true"
+            android:onClick="navigationFn" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="240dp"
+        android:layout_height="64dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="π"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView30"
+            android:onClick="navigationFn" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="e"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView31"
+            android:onClick="navigationFn" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="^"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView32"
+            android:onClick="navigationFn" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="240dp"
+        android:layout_height="64dp">
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="("
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView33"
+            android:onClick="navigationFn" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text=")"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView34"
+            android:onClick="navigationFn" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="%"
+            android:textColor="#FFFFFF"
+            android:textSize="25dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:id="@+id/textView35"
+            android:onClick="navigationFn" />
+    </LinearLayout>
+</LinearLayout>
